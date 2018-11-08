@@ -1,0 +1,6 @@
+
+syms t;
+x = sin(t);
+for k = 0:100
+    a =a int(x*exp(-1i*k*w0*t), t, 0, T0);
+end
